@@ -154,6 +154,8 @@ class SavedConversion {
 class SavedConversionView {
     constructor() {
         this.item = SavedConversionView.savedConvertionPrototype.cloneNode(true);
+        this.item.removeAttribute('id');
+
         this.inputUnit = this.item.querySelector('.saved-input-unit');
         this.value = this.item.querySelector('.saved-input');
         this.resultUnit = this.item.querySelector('.saved-result-unit');

@@ -138,6 +138,10 @@ section.saved-convertions .saved-convertion {
     padding: 5px;
 }
 
+section.saved-convertions #savedConvertionPrototype {
+    display: none;
+}
+
 .saved-convertion button {
     border: none;
 }
